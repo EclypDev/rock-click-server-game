@@ -1,0 +1,182 @@
+body {
+  font-family: Arial, sans-serif; 
+}
+ 
+
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("https://fondosmil.com/fondo/98906.png");
+    background-size: cover;
+    filter: blur(3px);
+    z-index: -1;
+  }
+  .margin {
+  height: 1%;
+  }
+  
+  .header {
+    height: 12vh;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+  background-color: #FF9500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  }
+  
+  #game-info {
+  display: flex;
+  margin-right: 2%;
+  }
+  
+  .exp, .points, .coins {
+  margin-right: 2%;
+  }
+  
+  .config {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 10px;
+  box-sizing: border-box;
+
+  }
+  
+  .config-button {
+  width: 45px;
+  height: 45px;
+  background-color: #FFC107;
+  border-radius: 10px;
+  cursor: pointer;
+  }
+  span {
+    font-size: 20px;
+    margin-left: 15px;
+    color: black;
+  }
+  #clickbutton {
+  width: 100px;
+  height: 100px;
+  background-color: #FFC107;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  align-items: center;
+  }
+  #clickbutton:hover {
+    scale: 0.97;
+  }
+  #clickbutton:active {
+    scale: 0.95;
+  }
+  
+  .game-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  #game-area, .store-area {
+  background-color: #ADD8E6;
+  width: 50vw;
+  height: 70vh;
+  margin: 10px;
+  flex: 1;
+  border-radius: 15px;
+  }
+  
+  @media only screen and (min-width: 768px) {
+  .header {
+    height: 12vh;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+  }
+  
+  #game-info {
+  margin-right: 1%;
+  }
+  
+  .exp, .points, .coins {
+  margin-right: 1%;
+  }
+  
+ 
+  
+
+  }
+  
+  @media only screen and (min-width: 1024px) {
+  .header {
+  height: 12vh;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 15px;
+  }
+  
+  #game-info {
+  margin-right: 0;
+  }
+  
+  .exp, .points, .coins {
+  margin-right: 0;
+  }
+  
+
+  
+  }
+  
+  .footer {
+  margin-top: 17px;
+  height: 15%;
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 15px;
+  }
+  
+  .cartoon-box {
+    text-align: center;
+    width: 170px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    background-color: #FFCC00;
+    box-shadow: 0px 0px 10px #000;
+    margin-left: 30px;
+  }
+  .cartoon-box1 {
+    text-align: center;
+    width: 170px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    background-color: #FFCC00;
+    box-shadow: 0px 0px 10px #000;
+    margin-left: 30px;
+  }
+  
+  @keyframes shake {
+    from {
+      transform: rotate(1deg);
+    }
+    to {
+      transform: rotate(-1deg);
+    }
+  }
